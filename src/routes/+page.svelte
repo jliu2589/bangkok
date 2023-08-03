@@ -1,3 +1,7 @@
+<script>
+	import DayCard from '../components/DayCard.svelte';
+</script>
+
 <main>
 	<h1>Bangkok 2023</h1>
 	<div>
@@ -23,7 +27,14 @@
 
 	<div>
 		<h2>Day 2 - Sunday, September 3</h2>
-		<p>hotel</p>
+
+		<div>
+			<p>Hilton London Heathrow Airport</p>
+		</div>
+		<div>black</div>
+	</div>
+	<div>
+		<DayCard />
 	</div>
 </main>
 
